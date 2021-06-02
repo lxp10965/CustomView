@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    format 常用类型-->
+<!--    reference    引用-->
+<!--    color    颜色-->
+<!--    boolean    布尔值-->
+<!--    dimension    尺寸值-->
+<!--    float    浮点值-->
+<!--    integer    整型值-->
+<!--    string   字符串-->
+<!--    enum   枚举-->
+    <declare-styleable name="MyAttributeView">
+        <attr name="my_name" format="string"/>
+        <attr name="my_age" format="integer"/>
+        <attr name="my_bg" format="reference|color"/>
+    </declare-styleable>
+
+</resources>

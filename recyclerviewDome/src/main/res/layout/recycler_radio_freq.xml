@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/radio_fq"
+	android:layout_width="278dp"
+	android:layout_height="278dp"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:background="@drawable/radio_freq_bg"
+	>
+
+	<ImageView
+		android:id="@+id/radio_fq_bg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+	<TextView
+		android:id="@+id/radio_fq_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:textSize="30sp"
+		android:textColor="@android:color/white"
+		android:gravity="center"
+		android:text="ddddd"/>
+
+</RelativeLayout>

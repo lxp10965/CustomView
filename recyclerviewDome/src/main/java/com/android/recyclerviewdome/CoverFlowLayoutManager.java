@@ -97,7 +97,7 @@ public class CoverFlowLayoutManager extends RecyclerView.LayoutManager {
 
     public CoverFlowLayoutManager(boolean isFlat, boolean isGreyItem,
                                   boolean isAlphaItem, float cstInterval) {
-        mIsFlatFlow = isFlat;
+        mIsFlatFlow = false;
         mItemGradualGrey = isGreyItem;
         mItemGradualAlpha = isAlphaItem;
         if (cstInterval >= 0) {
@@ -238,6 +238,8 @@ public class CoverFlowLayoutManager extends RecyclerView.LayoutManager {
         if (!mIsFlatFlow) { //不是平面普通滚动的情况下才进行缩放
             child.setScaleX(computeScale(frame.left - mOffsetAll)); //缩放
             child.setScaleY(computeScale(frame.left - mOffsetAll)); //缩放
+//            child.setScaleX(computeScale(mOffsetAll-frame.left )); //缩放
+//            child.setScaleY(computeScale(mOffsetAll-frame.left )); //缩放
         }
 
         if (mItemGradualAlpha) {

@@ -13,3 +13,7 @@ include ':youku'
 include ':app'
 rootProject.name = "CustomView"
 include ':recyclerviewDome'
+include ':coverflow_app'
+include ':coverflow'
+include ':coverflow'
+include ':app_coverflow'
